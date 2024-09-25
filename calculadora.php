@@ -7,6 +7,12 @@ if(isset($_POST['submit'])){
     $result = 0;
 
     switch ($operation) {
+         case 'sum':
+            $result = $num1 + $num2;
+            break;
+        case 'sub':
+            $result = $num1 - $num2;
+            break;
         case 'mult':
             $result = $num1 * $num2;
             break;
